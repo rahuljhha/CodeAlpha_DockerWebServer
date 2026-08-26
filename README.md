@@ -31,7 +31,8 @@ CodeAlpha_DockerWebServer/
 ├── Dockerfile
 ├── index.html
 └── README.md
-Architecture
+
+## Architecture
 User Browser
      |
      | HTTP Request
