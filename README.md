@@ -52,6 +52,7 @@ index.html
      | HTTP Response
      ↓
 User Browser
+
 Dockerfile
 FROM nginx:alpine
 
@@ -60,6 +61,7 @@ COPY index.html /usr/share/nginx/html/index.html
 EXPOSE 80
 
 HEALTHCHECK --interval=30s --timeout=3s --retries=3 CMD wget --no-verbose --tries=1 --spider http://localhost/ || exit 1
+
 Dockerfile Explanation
 Base Image
 
